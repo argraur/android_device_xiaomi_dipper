@@ -1,6 +1,52 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm845-common",
-    "target_path": "device/xiaomi/sdm845-common"
+    "repository" : "argraur/android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch"     : "pie"
+  },
+  {
+    "repository" : "argraur/proprietary_vendor_xiaomi_dipper",
+    "target_path": "vendor/xiaomi/dipper",
+    "branch"     : "pie"
+  },
+  {
+    "repository" : "LineageOS/android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "LineageOS/android_vendor_nxp_interfaces_opensource_nfc",
+    "target_path": "vendor/nxp/opensource/interfaces/nfc",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "LineageOS/android_vendor_nxp_opensource_external_libnfc-nci",
+    "target_path": "vendor/nxp/opensource/commonsys/external/libnfc-nci",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "LineageOS/android_vendor_nxp_opensource_frameworks",
+    "target_path": "vendor/nxp/opensource/commonsys/framework",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "argraur/android_vendor_nxp_opensource_packages_apps_Nfc",
+    "target_path": "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
+    "branch"     : "pie"
+  },
+  {
+    "repository" : "LineageOS/android_vendor_nxp_opensource_halimpl",
+    "target_path": "vendor/nxp/opensource/halimpl",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "LineageOS/android_vendor_nxp_opensource_hidlimpl",
+    "target_path": "vendor/nxp/opensource/hidlimpl",
+    "branch"     : "lineage-16.0"
   }
 ]
