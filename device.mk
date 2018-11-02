@@ -54,3 +54,7 @@ PRODUCT_PACKAGES += \
     NQNfcNci \
     SecureElement \
     Tag
+
+# Camera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
